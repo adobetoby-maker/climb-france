@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --color-navy: #1A1A2E;
+  --color-amber: #1B74C8;
+  --color-green: #17A589;
+  --color-cream: #F5F0EB;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-navy);
+  color: white;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Skip to main content — accessibility */
+.skip-to-main {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-to-main:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: auto;
+  padding: 0.5rem 1rem;
+  background: var(--color-amber);
+  color: #000;
+  font-weight: bold;
+  z-index: 9999;
+}
+
+/* Focus-visible ring with brand color */
+:focus-visible {
+  outline: 2px solid var(--color-amber);
+  outline-offset: 2px;
+}
+
+/* Affiliate disclosure */
+[data-testid="affiliate-disclosure"] {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-top: 0.5rem;
+}
