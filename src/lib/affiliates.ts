@@ -1,8 +1,8 @@
 export const AFFILIATES = {
   amazon: {
-    tag: 'climbfrance-20',
+    tag: 'climbing00bb-20',
     searchUrl: (query: string) =>
-      `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=climbfrance-20`,
+      `https://www.amazon.com/s?k=${encodeURIComponent(query)}&tag=climbing00bb-20`,
   },
   booking: {
     hotelUrl: (city: string) =>
