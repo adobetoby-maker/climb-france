@@ -5,7 +5,7 @@ import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import { LangProvider } from '@/context/lang'
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID
+const GA_ID = 'G-RP0TZ1MP7E'
 const BASE_URL = 'https://climb-france.vercel.app'
 
 export const metadata: Metadata = {
