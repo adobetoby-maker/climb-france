@@ -98,7 +98,7 @@ export const routes: ClimbingRoute[] = [
     guidePrice: 'EUR 60–90 per person for full-day circuit introduction',
     guideOperator: {
       name: 'Fontainebleau Climbing School',
-      url: 'https://www.fontainebleau-escalade.com',
+      url: 'https://climbingdistrict.com/en/',
       affiliate: false,
     },
     nearbyEats: [
@@ -119,12 +119,13 @@ export const routes: ClimbingRoute[] = [
       },
     ],
     images: {
-      hero: '/images/routes/france-font-boulder.jpg',
-      gallery: ['/images/routes/france-font-forest.jpg', '/images/routes/france-font-crux.jpg'],
+      hero: '/images/routes/france-font-crux.jpg',
+      gallery: ['/images/routes/france-font-forest.jpg', '/images/routes/france-font-boulder.jpg'],
     },
     gallery: [
+      { src: '/images/routes/france-font-crux.jpg', alt: 'Climber topping out on rounded sandstone boulder at Fontainebleau with spotter below in green forest', category: 'climbing', caption: 'Fontainebleau bouldering — climber tops out on a rounded sandstone boulder while a friend spots from below' },
       { src: '/images/routes/france-font-forest.jpg', alt: 'Fontainebleau forest approach trail through pine trees to sandstone boulders', category: 'approach', caption: 'The Fontainebleau forest — pine, heather, and sandstone boulders reachable by train from Paris in 45 minutes' },
-      { src: '/images/routes/france-font-crux.jpg', alt: 'Climber friction smearing on smooth sandstone slab at Fontainebleau', category: 'climbing', caption: 'Apremont Dalle slab — the hardest move is trusting rubber on near-blank sandstone at two-thirds height' },
+      { src: '/images/routes/france-font-boulder.jpg', alt: 'Rounded sandstone boulders among pine trees in the Fontainebleau forest', category: 'area', caption: 'The distinctive Fontainebleau sandstone — rounded tan and orange boulders scattered through a dense pine forest south of Paris' },
       { src: '/images/routes/france-font-circuit.jpg', alt: 'Painted circuit markers on sandstone boulder at Fontainebleau', category: 'area', caption: 'Colour-coded circuits — each colour marks a difficulty level across dozens of boulders in the sector' },
     ],
     rating: 4.9,
@@ -187,8 +188,8 @@ export const routes: ClimbingRoute[] = [
     guidedAvailable: true,
     guidePrice: 'EUR 120–180 per person for a full-day guided ascent',
     guideOperator: {
-      name: 'Bureau des Guides du Verdon',
-      url: 'https://www.guides-verdon.fr',
+      name: 'Guides du Verdon',
+      url: 'https://www.kookooclimb.com',
       affiliate: false,
     },
     nearbyEats: [
@@ -275,8 +276,8 @@ export const routes: ClimbingRoute[] = [
     guidedAvailable: true,
     guidePrice: 'EUR 90–140 per person for a full-day coached session',
     guideOperator: {
-      name: 'Compagnie des Guides de Gap-Écrins',
-      url: 'https://www.guides-gap.fr',
+      name: 'Guides du Gap / Céüse',
+      url: 'https://www.explore-share.com/rock-climbing-trips/france/',
       affiliate: false,
     },
     nearbyEats: [
@@ -362,7 +363,7 @@ export const routes: ClimbingRoute[] = [
     guidePrice: 'EUR 75–110 per person for a full-day guided multi-pitch',
     guideOperator: {
       name: 'Compagnie des Guides de Marseille',
-      url: 'https://www.guides-marseille.com',
+      url: 'https://www.explore-share.com/rock-climbing-trips/france/calanques/',
       affiliate: false,
     },
     nearbyEats: [
@@ -445,7 +446,7 @@ export const routes: ClimbingRoute[] = [
     guidePrice: 'EUR 55–85 per person for a half-day sport session',
     guideOperator: {
       name: 'Bureau des Guides du Millau',
-      url: 'https://www.guides-millau.fr',
+      url: 'https://www.explore-share.com/rock-climbing-trips/france/',
       affiliate: false,
     },
     nearbyEats: [

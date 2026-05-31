@@ -30,7 +30,7 @@ export const itineraries: Itinerary[] = [
     name: 'Fontainebleau Weekend',
     duration: '2-days',
     description: 'Two days of sandstone bouldering in the world\'s most famous forest, accessible by train from Paris.',
-    heroImage: '/images/routes/france-font-boulder.jpg',
+    heroImage: '/images/routes/france-font-crux.jpg',
     baseCity: 'Paris / Fontainebleau',
     totalClimbing: '2 days bouldering',
     difficulty: 'Font 4–6c',
