@@ -22,6 +22,7 @@ export default function Nav() {
     { href: '/guided-tours', label: c.nav.guidedTours },
     { href: '/travel-tips', label: c.nav.travelTips },
     { href: '/blog', label: c.nav.blog },
+    { href: '/explore', label: c.nav.explore },
   ]
 
   return (

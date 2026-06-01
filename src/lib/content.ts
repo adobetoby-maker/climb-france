@@ -22,6 +22,7 @@ export const content: Record<Lang, {
       contact: 'Contact',
       planTrip: 'Plan Trip',
       planTripMobile: 'Plan My Trip',
+      explore: 'Explore More',
     },
     hero: {
       heading1: 'France has the routes that defined modern climbing.',
@@ -156,6 +157,7 @@ export const content: Record<Lang, {
       contact: 'Contact',
       planTrip: 'Planifier',
       planTripMobile: 'Planifier mon voyage',
+      explore: 'Explorer',
     },
     hero: {
       heading1: 'La France a les voies qui ont défini l\'escalade moderne.',
@@ -290,6 +292,7 @@ export const content: Record<Lang, {
       contact: 'Kontakt',
       planTrip: 'Reise planen',
       planTripMobile: 'Meine Reise planen',
+      explore: 'Weitere Ziele',
     },
     hero: {
       heading1: 'Frankreich hat die Routen, die das moderne Klettern geprägt haben.',

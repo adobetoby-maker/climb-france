@@ -5,7 +5,11 @@ export interface BlogPost {
   excerpt: string
 }
 
-export const blogPosts: BlogPost[] = [
+// Placeholder posts are excluded from the listing until full content is written.
+// To add a post back: move it from draftBlogPosts into blogPosts and complete the article.
+export const blogPosts: BlogPost[] = []
+
+export const draftBlogPosts: BlogPost[] = [
   {
     slug: 'fontainebleau-beginners-guide',
     title: 'Fontainebleau for Beginners: Which Circuit to Start On',
